@@ -35,7 +35,7 @@ def PairMechanicList(request):
     if request.method == 'GET':
         Mechanic = PairMechanic.objects.all()
         serializer = PairMechanicSerializer(Mechanic, many=True)
-        return JsonResponse({'ShopInventoryList': serializer.data}, safe=False)
+        return JsonResponse({'MechanicList': serializer.data}, safe=False)
 
 class ViewShopInventory(viewsets.ReadOnlyModelViewSet):
     queryset = ShopInventory.objects.all()
