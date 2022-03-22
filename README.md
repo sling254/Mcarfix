@@ -43,10 +43,10 @@ And navigate to `http://127.0.0.1:8000/`.
 
 
 # Behaviour Driven Development 
-1. Get data showing an array for shop inventory. endpoint -- https://mcarfix.herokuapp.com//shopinventory-list
-2. Post Spare part shop inventory -- https://mcarfix.herokuapp.com//add-itemsshopinventory/
-3. Pair a mechanic with the services they offer. -- https://mcarfix.herokuapp.com//add-itemspairmechanic/
-4. Get data showing all mechanics and services they offer. --https://mcarfix.herokuapp.com//view-mechanics
+1. Get data showing an array for shop inventory. endpoint -- https://mcarfix.herokuapp.com/shopinventory-list
+2. Post Spare part shop inventory -- https://mcarfix.herokuapp.com/add-itemsshopinventory/
+3. Pair a mechanic with the services they offer. -- https://mcarfix.herokuapp.com/add-itemspairmechanic/
+4. Get data showing all mechanics and services they offer. --https://mcarfix.herokuapp.com/view-mechanics
 ## Known Bugs
 - There is no known bug at the time of the first release
 
