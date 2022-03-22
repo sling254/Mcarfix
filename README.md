@@ -3,8 +3,8 @@
 A Django rest framework endpoints to interact with Mcarfix which is a service that connects a user to a mechanic, has the capability to add mechanics and the services their offer.
 
 #### A Mcarfix Clone  , {Date March 22 2022}
-## Check out the website
-
+## Check website live link
+https://mcarfix.herokuapp.com/
 
 ## Setup/Installation Requirements
 
