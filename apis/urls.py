@@ -10,7 +10,7 @@ router.register('pairmechanic', views.PairMechanicViewSet)
 urlpatterns = [
     path('', views.apiOverview, name='index'),
     path('shopinventory-list',views.ShopInventoryList, name='ShopInventoryList'),
-    path('View-Mechanics',views.PairMechanicList, name='PairMechanicList'),
+    path('view-mechanics',views.PairMechanicList, name='PairMechanicList'),
     path('add-items', include(router.urls)),
     
    

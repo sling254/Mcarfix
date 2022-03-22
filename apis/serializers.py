@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import ShopInventory, PairMechanic
+from .models import Mechanic, ShopInventory, PairMechanic
 
 
 class ShopInventorySerializer(serializers.ModelSerializer):
@@ -9,7 +9,9 @@ class ShopInventorySerializer(serializers.ModelSerializer):
 
 
 class PairMechanicSerializer(serializers.ModelSerializer):
+    mechanic_name = serializers.CharField(source='mechanic.name')
+    service = serializers.CharField(source='service.service_Offered')
     class Meta:
         model = PairMechanic
-        fields = ('mechanic', 'service')
+        fields = ('mechanic_name', 'service')
     

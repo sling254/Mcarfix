@@ -12,7 +12,7 @@ from django.http import JsonResponse
 def apiOverview(request):
     api_urls ={
         'List':'/shopinventory-list/',
-        'Mechanic List':'/View-Mechanics/',
+        'Mechanic List':'/view-mechanics/',
         'Add items':'/add-items/',
     }
     return Response(api_urls)
