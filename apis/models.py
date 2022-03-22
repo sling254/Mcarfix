@@ -27,5 +27,4 @@ class ServiceOffered(models.Model):
 class PairMechanic(models.Model):
     mechanic = models.ForeignKey(Mechanic, on_delete=models.CASCADE)
     service = models.ForeignKey(ServiceOffered, on_delete=models.CASCADE)
-    def __str__(self):
-        return self.mechanic + " offers " + self.service.service_Offered
+    
