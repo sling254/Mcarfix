@@ -50,4 +50,8 @@ class PairMechanicViewSet(viewsets.ModelViewSet):
     queryset = PairMechanic.objects.all()
     serializer_class = PairMechanicSerializer
 
+class AddMechanic(viewsets.ModelViewSet):
+    queryset = PairMechanic.objects.all()
+    serializer_class = PairMechanicSerializer
+
 

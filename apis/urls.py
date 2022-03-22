@@ -5,7 +5,7 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register('shopinventory', views.ShopInventoryViewSet)
-router.register('pairmechanic', views.PairMechanicViewSet) 
+router.register('pairmechanic', views.AddMechanic) 
 
 urlpatterns = [
     path('', views.apiOverview, name='index'),

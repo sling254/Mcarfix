@@ -15,3 +15,8 @@ class PairMechanicSerializer(serializers.ModelSerializer):
         model = PairMechanic
         fields = ('mechanic_name', 'service')
     
+
+class AddMechanicSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = PairMechanic
+        fields = ('mechanic', 'service')
